@@ -1,12 +1,6 @@
 const mongoose = require('mongoose')
 
-const connectDB = (url) => {
-  return mongoose.connect(url, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true,
-  })
-}
+const connectionString =
+'mongodb+srv://josieprescott88_db_user:0rnlA0cC9GA5aa4K@cluster0.rf7plx4.mongodb.net/?appName=Cluster0'
 
-module.exports = connectDB
+mongoose.connect()
