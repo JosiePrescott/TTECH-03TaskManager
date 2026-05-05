@@ -1,4 +1,2 @@
 Day one: Worked on Task Manager- got to 46 minutes
-98yPN41RxCWfkTEc
-
-Updating this
+The rest of the days I gave up and just used the code, I tried to change everything I could to show updates on all the folders. I changed the colors and added a new header
