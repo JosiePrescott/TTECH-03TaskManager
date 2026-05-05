@@ -1,3 +1,10 @@
+body h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #434251;
+  font-size: 41 px;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400|Inconsolata:400');
 *,
 ::after,
@@ -7,9 +14,9 @@
 :root {
   /* COLORS  */
   /* primary */
-  --primary-0: #f0efff;
-  --primary-50: #d8d6ff;
-  --primary-100: #c1beff;
+  --primary-0: #231d77;
+  --primary-50: #4e84b8;
+  --primary-100: #434251;
   --primary-200: #aaa5ff;
   --primary-300: #938dff;
   --primary-400: #7b74ff;
@@ -71,7 +78,7 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
+  background: #bab7e6;
   color: var(--textColor);
   font-family: var(--bodyFont);
   font-weight: 400;
@@ -137,7 +144,7 @@ a {
   cursor: pointer;
   appearance: none;
   color: var(--white);
-  background: var(--primary-500);
+  background: #d50c99;
   border: none;
   border-radius: var(--borderRadius);
   letter-spacing: var(--letterSpacing);
@@ -149,7 +156,7 @@ a {
 
 .btn:hover {
   color: var(--white);
-  background: var(--primary-700);
+  background: #d50c99;
   box-shadow: var(--shadow-2);
 }
 button.small {
