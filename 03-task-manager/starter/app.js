@@ -1,3 +1,6 @@
+const dns = require("node:dns/promises");
+dns.setServers(["8.8.8.8"]);
+
 const express = require('express');
 const app = express();
 const tasks = require('./routes/tasks');
